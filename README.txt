@@ -1,8 +1,16 @@
+Re-test Yang's package
+07/13/2021
+I tested on onyx /USERS_APP/Inlandbay/model_sandy. Here're problems:
+1) PrgEnv-intel can't compile successfully due to some symbols in SWAN $
+2) PrgEnv-cray works with a slight modification in sc_io.fsc file unit 100-200
+3) SWAN didn't work properly with cray compiler. 
 
+I got results from cases without wave, and w/wo winds. /with_wind /without_wind. I plotted figure in /post_retest/, which looks consistent with Lu et al 2018. 
+
+
+------------ old documentation ---------
 Postprocessing
 /POSTPROCESSING/
-
-
 
 Wave data /DATA/WAVE/
 1) download WIS data from WIS website
