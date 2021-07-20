@@ -32,7 +32,7 @@ dep(dep<-0.5)=NaN;
 clf
 
 plot(lon,lat,'.r','MarkerSize',1)
-plot_google_map('maptype','satellite','APIKey','AIzaSyBeu2oRBtLClpcm4i2VDIXltuzMAOY5yX4')
+% plot_google_map here
 xlabel('Longitude(^\circ)');
 ylabel('Latitude(^\circ)')
 hold on
